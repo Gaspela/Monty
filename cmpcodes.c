@@ -25,8 +25,7 @@ if (strcmp(buff, op_codes[i].opcode) == 0)
 return (EXIT_SUCCESS);
 }
 }
-
 fprintf(stderr, "L%d: unknown instruction %s\n", line_number, buff);
+free_stack(stack);
 exit(EXIT_FAILURE);
-
 }

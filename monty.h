@@ -46,6 +46,7 @@ typedef struct instruction_s
 void takecodes(stack_t *node, char *buff, size_t len, FILE *op_file);
 void opcodes(stack_t *node, char *buff, size_t len, FILE *op_file);
 int cmpcodes(char *buff, stack_t **stack, unsigned int line_number);
+void free_stack(stack_t **stack);
 void op_pall(stack_t **stack, unsigned int line_number);
 void op_push(stack_t **stack, unsigned int line_number, char *vstack);
 void op_pint(stack_t **stack, unsigned int line_number);
