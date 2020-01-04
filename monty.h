@@ -47,6 +47,6 @@ void takecodes(stack_t *node, char *buff, size_t len, FILE *op_file);
 void opcodes(stack_t *node, char *buff, size_t len, FILE *op_file);
 int cmpcodes(char *buff, stack_t **stack, unsigned int line_number);
 void op_pall(stack_t **node, unsigned int line_number);
-void op_push(stack_t **node, unsigned int line_number, char *nstr);
+void op_push(stack_t **node, unsigned int line_number, char *vstack);
 
 #endif /* Nuestro Monty */
