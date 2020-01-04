@@ -57,10 +57,6 @@ stack_t *node = *stack;
 
 (void)line_number;
 
-if (stack == NULL || *stack == NULL)
-{
-return;
-}
 while (node != NULL)
 {
 printf("%d\n", node->n);

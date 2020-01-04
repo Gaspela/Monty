@@ -13,6 +13,7 @@ int i = 0;
 
 instruction_t op_codes[] = {
 {"pall", op_pall},
+{"pint", op_pint},
 {NULL, NULL},
 };
 
