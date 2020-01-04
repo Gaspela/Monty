@@ -27,7 +27,5 @@ op_push(&stack, line_number, vstack);
 else
 cmpcodes(buffer, &stack, line_number);
 }
-fclose(op_file);
 free_stack(&stack);
-free(buff);
 }
