@@ -28,4 +28,5 @@ else
 cmpcodes(buffer, &stack, line_number);
 }
 free_stack(&stack);
+free(buff);
 }
