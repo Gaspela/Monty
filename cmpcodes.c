@@ -16,6 +16,7 @@ instruction_t op_codes[] = {
 {"pint", op_pint},
 {"swap", op_swap},
 {"nop", op_nop},
+{"sub", op_sub},
 {NULL, NULL},
 };
 
