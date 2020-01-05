@@ -104,4 +104,8 @@ pall This is the end of our program. Monty is awesome!$
 julien@ubuntu:~/monty$
 ```
 
+### License
+
+MIT
+
 @Samir millan orozco
