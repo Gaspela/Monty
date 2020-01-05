@@ -1,3 +1,4 @@
+#include "monty.h"
 /**
  * op_sub - Subtracts the top element of the stack.
  * @stack: The stack.
@@ -6,7 +7,7 @@
 void op_sub(stack_t **stack, unsigned int line_number)
 {
 
-stack *node = NULL;
+stack_t *node = NULL;
 
 if (*stack && (*stack)->next != NULL)
 {
@@ -18,7 +19,8 @@ free(node);
 }
 else
 {
-fprintf(stderr, "L%u: can't sub, stack too short\n", line_numer);
+fprintf(stderr, "L%u: can't sub, stack too short\n", line_number);
+free_stack(stack);
 exit(EXIT_FAILURE);
 }
 }
