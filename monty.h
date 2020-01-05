@@ -2,9 +2,10 @@
 #define MONTY_H
 
 #define DELIM "\n\t\r "
-#define SIZE 1024
 #define TRUE 1
 #define FALSE 0
+#define SIZE 1024
+
 
 #include <string.h>
 #include <stdio.h>
@@ -51,6 +52,6 @@ void op_pall(stack_t **stack, unsigned int line_number);
 void op_push(stack_t **stack, unsigned int line_number, char *vstack);
 void op_pint(stack_t **stack, unsigned int line_number);
 void op_swap(stack_t **stack, unsigned int line_number);
-
+void op_nop(stack_t **stack, unsigned int line_number);
 
 #endif /* Nuestro Monty */
