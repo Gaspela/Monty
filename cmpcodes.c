@@ -18,6 +18,7 @@ instruction_t op_codes[] = {
 {"nop", op_nop},
 {"sub", op_sub},
 {"pop", op_pop},
+{"add", op_add},
 {NULL, NULL},
 };
 
